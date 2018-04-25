@@ -1,6 +1,6 @@
-import sigmoid
+from sigmoid import sigmoid
 
-def sigmoid_derivative(x):
+def sigmoid_gradient(x):
     """
     Compute the gradient (also called the slope or derivative) of the sigmoid function with respect to its input x.
     You can store the output of the sigmoid function into variables and then use it to calculate the gradient.
@@ -11,7 +11,6 @@ def sigmoid_derivative(x):
     Return:
     ds -- Your computed gradient.
     """
-
     s = sigmoid(x)
     ds = s*(1-s)
 
