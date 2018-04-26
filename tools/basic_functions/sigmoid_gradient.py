@@ -1,4 +1,4 @@
-from sigmoid import sigmoid
+from tools.basic_functions.sigmoid import sigmoid
 
 def sigmoid_gradient(x):
     """
